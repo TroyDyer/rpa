@@ -34,11 +34,11 @@ def emailautologin():
 
     # 로그인 정보 입력 및 로그인
     # 기본 커서가 ID 입력창이므로 마우스 포지션 처리 작업 없음
-    pw.type_in("")
+    pw.type_in("")  # 이메일 정보는 개인 정보라 git에 올리는 파일에서는 제거. 추후 별도 txt 파일 분리로 개선 예정
     time.sleep(0.5)
     pw.key_press_once("tab")
     time.sleep(0.5)
-    pw.type_in("")
+    pw.type_in("")  # 이메일 정보는 개인 정보라 git에 올리는 파일에서는 제거. 추후 별도 txt 파일 분리로 개선 예정
     time.sleep(0.5)
     pw.key_press_once("enter")
     time.sleep(2)
